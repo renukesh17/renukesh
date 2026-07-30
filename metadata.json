@@ -1,0 +1,11 @@
+{
+  "name": "Remix EcoSort",
+  "description": "An AI-powered smart waste segregation and recycling platform to help households dispose of waste correctly and find nearby recycling centers.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

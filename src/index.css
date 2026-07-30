@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-900: #1B4332;
+  --color-forest-800: #2D6A4F;
+  --color-forest-700: #40916C;
+  --color-sage-100: #F0F7F4;
+  --color-sage-200: #E8F3ED;
+  --color-mint-400: #74C69D;
+  --color-mint-200: #D8E9E1;
+}
+
+@layer base {
+  body {
+    @apply bg-sage-100 text-forest-900 font-sans;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply tracking-tighter uppercase font-black;
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-forest-900/10 rounded-full;
+}
